@@ -6,12 +6,13 @@ const invValue = params.get('inv');
 const malePria = params.get('fam'); 
 
 if(malePria != null) {
-    if(malePria.toLowerCase() == "true") {
-        document.querySelectorAll('#male_pria').forEach(item => item.innerHTML = 'Adam')
-    }
+if(malePria.toLowerCase() == "true") {
+    document.querySelectorAll('#male_pria').forEach(item => item.innerHTML = 'Adam')
+}
 }
 
-if(invValue != null) document.getElementById('nmtamu').innerHTML = invValue; 
+
+document.getElementById('nmtamu').innerHTML = invValue; 
 
 
 setTimeout(() => {

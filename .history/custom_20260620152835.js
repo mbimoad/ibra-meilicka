@@ -11,6 +11,7 @@ if(malePria != null) {
     }
 }
 
+
 if(invValue != null) document.getElementById('nmtamu').innerHTML = invValue; 
 
 
