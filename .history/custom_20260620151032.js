@@ -7,6 +7,7 @@ const malePria = params.get('fam');
 
 if(malePria.toLowerCase() == "true") {
     document.querySelectorAll('#male_pria').forEach(item => item.innerHTML = 'Adam')
+    document.getElementById('male_pria').innerHTML = "Adam"; 
 }
 
 document.getElementById('nmtamu').innerHTML = invValue; 
