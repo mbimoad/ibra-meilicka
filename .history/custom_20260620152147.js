@@ -13,6 +13,6 @@ document.getElementById('nmtamu').innerHTML = invValue;
 
 
 setTimeout(() => {
-    document.querySelector('.bmoloader').classList.add('hiding')
+    document.querySelector('.bmoloader').classList.add('hide')
 }, 1000);
 
