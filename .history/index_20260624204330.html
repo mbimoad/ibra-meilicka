@@ -684,7 +684,7 @@ Nagari Mungo, Kab. 50 Kota</span>								</div>
 				<div class="elementor-element elementor-element-834da2f elementor-align-center lokasi-btn ef slide-up elementor-widget elementor-widget-button" data-id="834da2f" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://maps.app.goo.gl/5NWEWU7o8RXUBRJm8" target="_blank">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://maps.app.goo.gl/ZDWX8ZaBkCxg6jEi8" target="_blank">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="fas fa-map-marker-alt"></i>			</span>
@@ -1248,7 +1248,32 @@ Ds Pagu, Wates, Kediri, Jawa Timur</span> 								</div>
             
         
                     <style>.cui-comment-content{margin-left: 0!important;}.cui-comment-avatar{display:none !important;}</style>
-       
+            		<script>
+
+			var txt=document.getElementById('cui-link-23113').innerHTML;
+			var pos = txt
+			.replace(/Comments/g, "Comments")
+			document.getElementById('cui-link-23113').innerHTML = pos;
+			
+			var txt1=document.getElementById('invitation-count-23113').innerHTML;
+			var pos1 = txt1
+			.replace(/Hadir/g, "Hadir")
+			.replace(/Tidak hadir/g, "Tidak Hadir")
+			.replace(/Masih Ragu/g, "Masih Ragu");
+			document.getElementById('invitation-count-23113').innerHTML = pos1;
+
+			var txt2=document.getElementById('commentform-23113').innerHTML;
+			var pos2 = txt2
+			.replace(/Nama/g, "Nama")
+			.replace(/Ucapan/g, "Ucapan")
+			.replace(/Konfirmasi Kehadiran/g, "Konfirmasi Kehadiran")
+			.replace(/Datang/g, "Hadir")
+			.replace(/Absen/g, "Tidak Hadir")
+			.replace(/Mungkin/g, "Masih Ragu")
+			.replace(/Kirim/g, "Kirim");
+			document.getElementById('commentform-23113').innerHTML = pos2;
+
+		</script>
         
         				</div>
 				</div>
