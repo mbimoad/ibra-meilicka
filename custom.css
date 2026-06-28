@@ -32,6 +32,10 @@
   }
 }
 
+form#commentForm label {
+  margin-bottom: 15px 0 !important;
+}
+
 .bmoloader.hiding {
   opacity: 0;
   -webkit-user-select: none;
